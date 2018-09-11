@@ -11,7 +11,7 @@ import { Provider } from 'react-redux';
 
 const store = createStore<StoreState, ChutzpahAction, {}, {}>(chutzpah, {
   chutzpah: 1,
-  playerName: 'Sergio',
+  playerName: "Ol' Buddy Ol' Pal",
 });
 
 ReactDOM.render(
